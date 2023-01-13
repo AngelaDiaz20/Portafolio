@@ -1,5 +1,7 @@
 import React from 'react'
+
 import Button from '../components/common/button'
+import Footer from '../components/layouts/Footer'
 
 import RobotAbout from '../assets/img/robot-about.png'
 
@@ -24,6 +26,8 @@ function Home () {
         <img src={RobotAbout} alt="Robot"/>
         <div className='circle'></div>
       </section>
+
+      <Footer/>
     </>
   )
 }
