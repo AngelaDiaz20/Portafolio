@@ -16,7 +16,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     // background:linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0)), url('../../assets/img/background-home.jpg') center/cover;
     background:url('../../assets/img/background-home.jpg') center/cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color: $white;
     position: relative;
@@ -35,4 +35,95 @@
             margin: 20px 0;
         }
     }
+}
+
+.about{
+    position: relative;
+    width: min-content;
+    height: min-content;
+    margin: auto;
+
+    &::before, &::after{
+        content: '';
+        position: absolute;
+        clip-path: polygon(0 7%, 4% 0, 16% 0, 20% 4%, 80% 4%, 84% 0, 96% 0, 100% 7%, 100% 93%, 96% 100%, 84% 100%, 80% 96%, 62% 96%, 58% 91%, 47% 91%, 45% 96%, 20% 96%, 16% 100%, 4% 100%, 0 93%);
+    }
+
+    &::before{
+        background: $light-blue;
+        height: 101%;
+        width: 100.5%;
+        top: -.5%;
+        left: -.25%;
+        z-index: -3;
+    }
+
+    &::after{
+        background:$dark-blue;
+        height: 100%;
+        width: 100%;
+        z-index: -2;
+        bottom: 0;
+    }
+
+    .container{
+        height: 400px;
+        width: 800px;
+        background: linear-gradient(to left, #2755b165, #2755b107);
+        clip-path: polygon(0 7%, 4% 0, 16% 0, 20% 4%, 80% 4%, 84% 0, 96% 0, 100% 7%, 100% 93%, 96% 100%, 84% 100%, 80% 96%, 62% 96%, 58% 91%, 47% 91%, 45% 96%, 20% 96%, 16% 100%, 4% 100%, 0 93%);
+
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15% 0 23%;
+
+        h1{
+            text-align: left;
+            margin: 0 0 20px;
+            width: 100%;
+        }
+    }
+
+    img{
+        position: absolute;
+        height: 250px;
+        bottom: -20px;
+        left: -50px;
+    }
+
+    .circle{
+        position: absolute;
+        background:linear-gradient(155deg, #6942caf9, #6942ca3b);
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        top: 100px;
+        right: -70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
+
+        &::after{
+            content: '';
+            width: 70%;
+            height: 70%;
+            background: $dark-blue;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        &::before{
+            content: '';
+            height: 100%;
+            width: 2px;
+            background: $light-blue;
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+        }
+    }
+
 }
