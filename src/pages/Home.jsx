@@ -1,9 +1,14 @@
 import React from 'react'
 
-import Button from '../components/common/button'
+import Button from '../components/common/Button'
 import Footer from '../components/layouts/Footer'
 
 import RobotAbout from '../assets/img/robot-about.png'
+import RobotPlan from '../assets/img/robot-plan.png'
+import RobotDesign from '../assets/img/robot-design.png'
+import RobotCode from '../assets/img/robot-coding.png'
+import RobotDeploy from '../assets/img/robot-deploy-2.png'
+
 
 function Home () {
   return (
@@ -25,6 +30,36 @@ function Home () {
 
         <img src={RobotAbout} alt="Robot"/>
         <div className='circle'></div>
+      </section>
+
+      <section className='skills-summary'>
+        <article>
+          <div className='skills-circle'>
+            <img src={RobotPlan} alt="Robot Plan"/>
+          </div>
+          <p>Plan</p>
+        </article>
+
+        <article>
+          <div className='skills-circle'>
+            <img src={RobotDesign} alt="Robot Plan"/>
+          </div>
+          <p>Design</p>
+        </article>
+
+        <article>
+          <div className='skills-circle'>
+            <img src={RobotCode} alt="Robot Plan"/>
+          </div>
+          <p>Code</p>
+        </article>
+
+        <article>
+          <div className='skills-circle'>
+            <img src={RobotDeploy} alt="Robot Plan" className='robot-deploy'/>
+          </div>
+          <p>Deploy</p>
+        </article>
       </section>
 
       <Footer/>
