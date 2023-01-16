@@ -7,7 +7,7 @@ import BgFooter from '../../assets/img/background-footer.png'
 function Footer ()  {
   return (
     <footer>
-      <img src={BgFooter} alt="Imagen espacio"/>
+      {/* <img src={BgFooter} alt="Imagen espacio"/> */}
       <div className='information'>
         <div className='icons'><FaFigma/> <FaGithub/> <FaLinkedin/> <FaInstagram/> <FaTelegramPlane/></div>
         <div className='author'>
