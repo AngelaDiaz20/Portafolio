@@ -98,8 +98,7 @@ function Home () {
       <section className='about'>
         <div className='container'>
           <h1>About me</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, placeat dignissimos esse quidem ad earum voluptatibus aut officia aperiam sapiente voluptatem ipsa at aliquam fugiat! Repellat enim numquam accusantium sit?
-          Eaque dignissimos consequuntur animi architecto autem nam quisquam assumenda provident incidunt possimus, molestiae, ea optio molestias rem velit ullam, tenetur quaerat. Ratione dignissimos nihil ipsam odio repellat, facere laborum. Consequuntur!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, placeat dignissimos esse quidem ad earum voluptatibus aut officia aperiam sapiente voluptatem ipsa at aliquam fugiat! Repellat enim numquam accusantium sit?</p>
         </div>
 
         <img src={RobotAbout} alt="Robot"/>
@@ -110,7 +109,7 @@ function Home () {
         <SkillCircle image={RobotPlan} name="Plan"/>
         <SkillCircle image={RobotDesign} name="Design"/>
         <SkillCircle image={RobotCode} name="Code"/>
-        <SkillCircle image={RobotDeploy} name="Deploy" classImage="robot-deploy"/>
+        <SkillCircle image={RobotDeploy} name="Deploy" classImage="robot-deploy" classContainer="deploy"/>
       </section>
 
       <section className='skills'>

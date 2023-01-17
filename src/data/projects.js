@@ -26,7 +26,7 @@ const projects = [
 
     {
         id:"02",
-        name:"Slaughter house coders - game",
+        name:"Slaughter house coders",
         image:SlaughterCoders,
         category:{
             ReactJs:false,
@@ -40,7 +40,7 @@ const projects = [
 
     {
         id:"03",
-        name:"Crypto Currence - API consume",
+        name:"Crypto - API consume",
         image:CryptoCurrence,
         category:{
             ReactJs:true,
