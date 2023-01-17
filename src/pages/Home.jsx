@@ -6,7 +6,7 @@ import { RxDoubleArrowRight, RxDoubleArrowLeft } from 'react-icons/rx'
 import {HiOutlineMail} from 'react-icons/hi'
 import {SiMinutemailer, SiLinkedin} from 'react-icons/si'
 
-import Button from '../components/common/Button'
+import Button from '../components/common/Button';
 import Footer from '../components/layouts/Footer'
 
 import Filter from '../components/common/Filter';
