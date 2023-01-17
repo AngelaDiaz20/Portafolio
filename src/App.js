@@ -1,3 +1,4 @@
+import React from 'react'
 import './scss/style.scss'
 import Home from './pages/Home';
 
