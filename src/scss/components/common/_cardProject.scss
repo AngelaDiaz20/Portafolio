@@ -147,7 +147,7 @@
 @media screen and (min-width:768px){
     .projects-cards {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         width: 90%;
         margin: auto;
@@ -250,6 +250,16 @@
             border-radius: 50%;
         }
         
+    }
+
+    @media screen and (min-width:1024px){
+        .projects-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 90%;
+            margin: auto;
+        }
     }
     
     @media screen and (min-width:500px) {

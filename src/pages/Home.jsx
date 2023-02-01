@@ -129,9 +129,6 @@ function Home () {
           </div>
         </article>
         <article>
-          <div className='container-robot'>
-            <img src={SkillsCode} alt="Robot code skills"/>
-          </div>
           <div className='list-skills'>
               <div className='card-skill'>
                 <img src={SkillsImage(`./css.png`)} alt=""/>
@@ -161,6 +158,9 @@ function Home () {
                 <img src={SkillsImage(`./python.png`)} alt=""/>
                 <p>Python</p>
               </div>
+          </div>
+          <div className='container-robot'>
+            <img src={SkillsCode} alt="Robot code skills"/>
           </div>
         </article>
       </section>
